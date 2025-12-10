@@ -1,6 +1,6 @@
 import Fastify from "fastify";
-import multipart from "fastify-multipart";
-import cors from "fastify-cors";
+import multipart from "@fastify/multipart";
+import cors from "@fastify/cors";
 import { loadEnv } from "@careops/config";
 import { registerRoutes } from "./routes";
 

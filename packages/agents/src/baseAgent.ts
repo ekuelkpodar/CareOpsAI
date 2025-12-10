@@ -1,4 +1,4 @@
-import { randomUUID } from "uuid";
+import { randomUUID } from "crypto";
 import { AgentInput, AgentRunContext, AgentResult, AgentOutputSchema } from "./types";
 import { evaluatePolicies } from "./policyEngine";
 
